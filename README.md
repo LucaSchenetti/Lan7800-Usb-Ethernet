@@ -20,7 +20,7 @@ throughput test results measured with `iperf3`.
 - **Line-rate** throughput in both directions (see results below)
 - On-board **reset button**, **power LED**, and an **I²C header** (SDA/SCL/GND)
 - Bus-powered via USB
-- Revision **C** (06/2026)
+- Revision **C** (07/2026)
 
 ## Connectors and main components
 
