@@ -1,0 +1,30 @@
+# ============================================================
+#  .gitignore per il progetto Lan7800-Usb-Ethernet
+#  Rinomina questo file in ".gitignore" (con il punto davanti)
+# ============================================================
+
+# --- Altium: backup automatici e file temporanei (NON pubblicare!) ---
+# La cartella History pesa centinaia di MB di autosave inutili
+1-Draw/History/
+History/
+__Previews/
+*.PcbDoc.Zip
+*.SchDoc.Zip
+*.PrjPcb.Zip
+*.~(*)
+Project Logs*/
+Project Outputs*/
+
+# --- Cache e ambienti Python ---
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# --- Git annidato accidentale (nella cartella di test) ---
+8-Test_PCB/.git/
+
+# --- File di sistema ---
+.DS_Store
+Thumbs.db
+desktop.ini
